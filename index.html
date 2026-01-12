@@ -20,39 +20,126 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <a class="header-logo"
-          ><img class="header-image" src="./img/logo-mob.svg" alt="site logo"
-        /></a>
-        <nav class="nav">
-          <ul class="header-menu-list">
-            <li class="header-menu-item">
-              <a class="header-menu-link" href="#home">Home</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-menu-link" href="#our-menu">Our menu</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-menu-link" href="#gallery">Gallery</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-menu-link" href="#reviews">Reviews</a>
-            </li>
-          </ul>
-          <button type="button">Contact</button>
-        </nav>
-        <button class="burger" type="button">
-          <img src="./img/burger.png" alt="site logo" />
-        </button>
+        <div class="header-div">
+          <a class="header-logo"
+            ><img class="header-image" src="./img/logo-mob.svg" alt="site logo"
+          /></a>
+          <nav class="nav">
+            <ul class="header-menu-list">
+              <li class="header-menu-item">
+                <a class="header-menu-link" href="#home">Home</a>
+              </li>
+              <li class="header-menu-item">
+                <a class="header-menu-link" href="#our-menu">Our menu</a>
+              </li>
+              <li class="header-menu-item">
+                <a class="header-menu-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="header-menu-item">
+                <a class="header-menu-link" href="#reviews">Reviews</a>
+              </li>
+            </ul>
+            <button type="button">Contact</button>
+          </nav>
+          <button class="burger" type="button">
+            <img src="./img/burger.png" alt="site logo" />
+          </button>
+        </div>
       </div>
     </header>
     <section class="hero">
       <div class="container">
         <div class="hero-wrap">
-          <h1 class="hero-title">Catolina Cafe and Catering Company</h1>
+          <div class="hero-text">
+            <h1 class="hero-title">Catolina Cafe and Catering Company</h1>
+            <h3 class="hero-sub-title">
+              Freshly made bagels, coffee, and more since 1998.
+            </h3>
+
+            <div class="hero-buttons">
+              <button class="hero-buy-btn" type="button">Our Menu</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <section class="about-section">
+      <div class="container container-about">
+        <div class="about-image">
+          <h2 class="title-about">About us</h2>
 
+          <!-- <img
+              class="about-image"
+              src="./img/image-about=text.svg"
+              alt="site logo"
+            /> -->
+          <p class="text-about">
+            Founded in 1998 Carolina Cafe and Catering Co. was founded in 1998.
+            Also proudly known as “The Bagel Shop” for our in house made NY
+            style bagels.
+          </p>
+          <button class="button-about" type="button">Learn more</button>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="container container-gallery">
+        <div class="gallery-content">
+          <h2 class="title-about">Gallery</h2>
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <div class="gallery-cover-wrap">
+                <img
+                  class="gallery-image"
+                  src="./img/01.png"
+                  alt="chocolate"
+                  width="328"
+                  height="229"
+                />
+              </div>
+            </li>
+            <li class="gallery-item">
+              <div class="gallery-cover-wrap">
+                <img
+                  class="gallery-image"
+                  src="./img/image 6-mob.png"
+                  alt="chocolate"
+                  width="328"
+                  height="229"
+                />
+              </div>
+            </li>
+            <li class="gallery-item">
+              <div class="gallery-cover-wrap">
+                <img
+                  class="gallery-image"
+                  src="./img/image 7-mob.png"
+                  alt="chocolate"
+                  width="328"
+                  height="229"
+                />
+              </div>
+            </li>
+            <li class="gallery-item">
+              <div class="gallery-cover-wrap">
+                <img
+                  class="gallery-image"
+                  src="./img/image 8.-mob.png"
+                  alt="chocolate"
+                  width="328"
+                  height="229"
+                />
+              </div>
+            </li>
+          </ul>
+          <img
+            class="offer-banner"
+            src="./img/offer-banner.svg"
+            alt="site logo"
+          />
+        </div>
+      </div>
+    </section>
     <script src="js/script.js"></script>
   </body>
 </html>
